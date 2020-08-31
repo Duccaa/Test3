@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100px;
+    height: auto;
+}
+
+#header {
+    background-color: burlywood;
+    border-bottom: solid;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#select-div {
+    padding: 1em;
+}
+#ship-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
