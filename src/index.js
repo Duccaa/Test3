@@ -18,11 +18,11 @@ getAllShips()
         app.append(shipList(res.data))
     })
 
-app().addEventListener('change', () => {
+selectList().addEventListener('change', () => {
     const select = document.getElementById('select')
     const shipListDiv = document.getElementById('ship-list')
     shipListDiv.innerHTML = ''
-    
+
     if(select.value === 'All ships') {  
         getAllShips()
             .then(res => {
